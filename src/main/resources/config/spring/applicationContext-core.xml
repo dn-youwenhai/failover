@@ -289,6 +289,6 @@
 		<property name="fileEncodings" value="utf-8"/>
 		<property name="cacheSeconds" value="60"/>
 	</bean> -->
-	<!--<import resource="classpath:config/redis/redis.xml"/>-->
-	<import resource="classpath:config/mongodb/mongodb.xml"/>
+	<import resource="classpath:config/redis/redis.xml"/>
+	<!--<import resource="classpath:config/mongodb/mongodb.xml"/>-->
 </beans>

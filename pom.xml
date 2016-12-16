@@ -13,12 +13,8 @@
 	</properties>
 
 	<dependencies>
-	<!-- 
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>servlet-api</artifactId>
-			<version>2.5</version>
-		</dependency> -->
+		<!-- <dependency> <groupId>javax.servlet</groupId> <artifactId>servlet-api</artifactId> 
+			<version>2.5</version> </dependency> -->
 		<!-- 日志处理 -->
 		<dependency>
 			<groupId>commons-logging</groupId>
@@ -60,12 +56,8 @@
 			<artifactId>spring-data-commons</artifactId>
 			<version>1.12.5.RELEASE</version>
 		</dependency>
-		<!-- 
-		<dependency>
-			<groupId>net.sf.log4jdbc</groupId>
-			<artifactId>log4jdbc4</artifactId>
-			<version>1.2.0</version>
-		</dependency> -->
+		<!-- <dependency> <groupId>net.sf.log4jdbc</groupId> <artifactId>log4jdbc4</artifactId> 
+			<version>1.2.0</version> </dependency> -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>
@@ -124,12 +116,8 @@
 			<version>2.1</version>
 			<classifier>jdk15</classifier>
 		</dependency>
-		<!-- 
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>jstl</artifactId>
-			<version>1.2</version>
-		</dependency> -->
+		<!-- <dependency> <groupId>javax.servlet</groupId> <artifactId>jstl</artifactId> 
+			<version>1.2</version> </dependency> -->
 		<dependency>
 			<groupId>taglibs</groupId>
 			<artifactId>standard</artifactId>
@@ -169,12 +157,8 @@
 			<artifactId>druid</artifactId>
 			<version>0.2.15</version>
 		</dependency>
-		<!-- 
-		<dependency>
-			<groupId>com.oracle</groupId>
-			<artifactId>ojdbc14</artifactId>
-			<version>10.2.0.3.0</version>
-		</dependency> -->
+		<!-- <dependency> <groupId>com.oracle</groupId> <artifactId>ojdbc14</artifactId> 
+			<version>10.2.0.3.0</version> </dependency> -->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
@@ -185,48 +169,27 @@
 			<artifactId>spring-jms</artifactId>
 			<version>4.1.5.RELEASE</version>
 		</dependency>
-		<dependency>  
-            <groupId>org.apache.activemq</groupId>  
-            <artifactId>activemq-core</artifactId>  
-            <version>5.7.0</version>  
-        </dependency>  
-		<!-- 
-		<dependency>
-			<groupId>org.apache.geronimo.specs</groupId>
-			<artifactId>geronimo-jta_1.0.1B_spec</artifactId>
-			<version>1.1.1</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.geronimo.specs</groupId>
-			<artifactId>geronimo-jms_1.1_spec</artifactId>
-			<version>1.1.1</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.geronimo.specs</groupId>
-			<artifactId>geronimo-j2ee-management_1.1_spec</artifactId>
-			<version>1.0.1</version>
-		</dependency> -->
-		<!-- 
 		<dependency>
 			<groupId>org.apache.activemq</groupId>
-			<artifactId>activemq-web</artifactId>
-			<version>5.14.1</version>
+			<artifactId>activemq-core</artifactId>
+			<version>5.7.0</version>
 		</dependency>
+		<!-- <dependency> <groupId>org.apache.geronimo.specs</groupId> <artifactId>geronimo-jta_1.0.1B_spec</artifactId> 
+			<version>1.1.1</version> </dependency> <dependency> <groupId>org.apache.geronimo.specs</groupId> 
+			<artifactId>geronimo-jms_1.1_spec</artifactId> <version>1.1.1</version> </dependency> 
+			<dependency> <groupId>org.apache.geronimo.specs</groupId> <artifactId>geronimo-j2ee-management_1.1_spec</artifactId> 
+			<version>1.0.1</version> </dependency> -->
+		<!-- <dependency> <groupId>org.apache.activemq</groupId> <artifactId>activemq-web</artifactId> 
+			<version>5.14.1</version> </dependency> <dependency> <groupId>org.apache.activemq</groupId> 
+			<artifactId>activemq-all</artifactId> <version>5.14.0</version> </dependency> 
+			<dependency> <groupId>javax.jms</groupId> <artifactId>javax.jms-api</artifactId> 
+			<version>2.0.1</version> </dependency> <dependency> <groupId>org.apache.activemq</groupId> 
+			<artifactId>activemq-all</artifactId> <version>5.14.1</version> </dependency> -->
 		<dependency>
-			<groupId>org.apache.activemq</groupId>
-			<artifactId>activemq-all</artifactId>
-			<version>5.14.0</version>
-		</dependency>  
-		<dependency>
-			<groupId>javax.jms</groupId>
-			<artifactId>javax.jms-api</artifactId>
-			<version>2.0.1</version>
+			<groupId>org.springframework.session</groupId>
+			<artifactId>spring-session-data-redis</artifactId>
+			<version>1.0.1.RELEASE</version>
 		</dependency>
-		<dependency>
-			<groupId>org.apache.activemq</groupId>
-			<artifactId>activemq-all</artifactId>
-			<version>5.14.1</version>
-		</dependency>-->
 	</dependencies>
 	<build>
 		<finalName>failover</finalName>
